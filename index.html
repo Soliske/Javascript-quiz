@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <title>Javascript Quiz</title>
+</head>
+
+<body>
+    <div id="gradient">
+    <div id="container">
+<h1>Javascript Quiz</h1>
+<p>How well do you think you know <strong>JavaScript</strong>? Test your knowledge!</p>
+        </div>
+        <section>
+            <div id="results">
+                <form name="quizForm" onsubmit="return submitAnswers()">
+                        <h3>Arrays in JavaScript can be used to store _____.</h3>
+                        <input type="button" name="q1" value="Numbers and strings" id="q1a"><br>
+                        <br>
+                        <input type="button" name="q1" value="Other arrays" id="q1b"><br>
+                        <br>
+                        <input type="button" name="q1" value="Boolean values" id="q1c"><br>
+                        <br>
+                        <input type="button" name="q1" value="All the above" id="q1d"><br>
+
+                        <h3>Commonly used data types do NOT include:</h3>
+                        <input type="button" name="q2" value="strings" id="q2a"><br>
+                        <br>
+                        <input type="button" name="q2" value="Booleans" id="q2b"><br>
+                        <br>
+                        <input type="button" name="q2" value="Alerts" id="q2c"><br>
+                        <br>
+                        <input type="button" name="q2" value="All the above" id="q2d"><br>
+                   
+                        <h3>The condition in an if/else statement is enclosed with ___.</h3>
+                        <input type="button" name="q3" value="Curly brackets" id="q3a"><br>
+                        <br>
+                        <input type="button" name="q3" value="Parentheses" id="q3b"><br>
+                        <br>
+                        <input type="button" name="q3" value="Tortillas" id="q3c"><br>
+                        <br>
+                        <input type="button" name="q3" value="All the above" id="q3d"><br>
+                    
+                        <h3>String values must be enclosed within ____ when being assigned to variables.</h3>
+                        <input type="button" name="q4" value="Quotes" id="q4a"><br>
+                        <br>
+                        <input type="button" name="q4" value="Parentheses" id="q4b"><br>
+                        <br>
+                        <input type="button" name="q4" value="Spongebob brackets" id="q4c"><br>
+                        <br>
+                        <input type="button" name="q4" value="None of the above" id="q4d"><br>
+                    
+                        <h3>Javascript can be used to ________.</h3>
+                        <input type="button" name="q5" value="Add interactivity to webpages" id="q5a"><br>
+                        <br>
+                        <input type="button" name="q5" value="Debug" id="q5b"><br>
+                        <br>
+                        <input type="button" name="q5" value="Computational Thinking" id="q5c"><br>
+                        <br>
+                        <input type="button" name="q5" value="All the above" id="q5d"><br>
+                        <br><br>
+                        <input type="submit" value="Submit Answers">
+                </form>
+            </div>
+        </section>
+        </div>
+        
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
