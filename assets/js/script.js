@@ -49,7 +49,7 @@ function updateGradient() {
 
 setInterval(updateGradient, 10);
 
-// code for quiz interactivity//
+// logic for quiz interactivity//
 
 function submitAnswers () {
     var total = 5;
