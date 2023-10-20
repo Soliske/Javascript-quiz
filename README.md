@@ -9,4 +9,4 @@ see their score.
 
 Sources: Eduonix.com (JS logic guides)
 
-Git URL: https://github.com/Soliske/Javascript-quiz Site URL: 
+Git URL: https://github.com/Soliske/Javascript-quiz Site URL: https://soliske.github.io/Javascript-quiz/
